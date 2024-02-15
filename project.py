@@ -130,11 +130,10 @@ while playing:
       if check_winner(board):
          if player_turn == 1:
             print(f"Congratulations Player1 {player1_info[0]} You WON!!!! ")
-            print("exiting form first while")
+
             break
          else:
             print(f"Congratulations Player2 {player2_info[0]} You WON!!!! ")
-            print("exiting form first while")
             break
       elif count >= 9:
          print("It's a TIE No one WON")
